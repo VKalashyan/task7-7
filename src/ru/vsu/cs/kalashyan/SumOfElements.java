@@ -1,7 +1,7 @@
 package ru.vsu.cs.kalashyan;
 
-public class Logic {
-    public Logic() {
+public class SumOfElements {
+    public SumOfElements() {
     }
 
     public int parityPosition(int[] arr) {

@@ -10,14 +10,14 @@ public class MainPanel extends JPanel {
     private JTextField arrayField;
     private JButton accept;
     private JLabel result;
-    private Logic logic;
+    private SumOfElements logic;
 
     public MainPanel() {
         this.setLayout(null);
         arrayField = new JTextField();
         accept = new JButton("Result");
         result = new JLabel();
-        logic = new Logic();
+        logic = new SumOfElements();
         arrayField.setBounds(50, 20, 300, 30);
         accept.setBounds(50, 50, 100, 30);
         result.setBounds(50, 80, 100, 30);
